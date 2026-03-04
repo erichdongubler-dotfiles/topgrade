@@ -1,6 +1,9 @@
 [misc]
 disable = ["vim"]
 
+[containers]
+runtime = "podman"
+
 [git]
 fetch_only = true
 
