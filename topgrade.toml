@@ -1,2 +1,5 @@
 [misc]
 disable = ["vim"]
+
+[rustup]
+channels = ["stable", "beta"]
