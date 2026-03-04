@@ -1,5 +1,8 @@
 [misc]
 disable = ["vim"]
 
+[git]
+fetch_only = true
+
 [rustup]
 channels = ["stable", "beta"]
