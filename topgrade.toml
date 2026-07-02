@@ -1,5 +1,9 @@
 [misc]
-disable = ["vim"]
+disable = [
+  # NOTE: This works around <https://github.com/helix-editor/helix/issues/15464>.
+  "helix",
+  "vim",
+]
 
 [git]
 fetch_only = true
